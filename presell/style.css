@@ -8,17 +8,14 @@ body {
 
 .container {
 
-	max-width: 95%;
+	max-width: 80%;
 	margin: 0 auto;
 	padding: 30px;
 
 }
 
-.logos img {
-
-	max-height: 24px;
-	align-self: center;
-
+.product img:nth-child(1) {
+	max-height: 50px;
 }
 
 
@@ -40,10 +37,11 @@ body {
 
 
 .product img:nth-child(3) {
-	margin-left: 100px;
+	margin-left: 90px;
 }
+
 .product img:nth-child(5) {
-	margin-left: 100px;
+	margin-left: 90px;
 }
 
 
@@ -68,6 +66,23 @@ body {
 .product button:hover {
 	background-color: #006F8F;
 }
+
+.container .product.privacy-policy-btn {
+	text-align: right;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+.privacy-policy-btn a {
+	text-align:right; 
+	display: inline-block;	
+	color: #3f51b5;
+	text-decoration: none;
+	
+	font-family: 'Courier New', Courier, monospace;
+}
+
 
 @media only screen and (max-width: 768px) {
 	.container {
